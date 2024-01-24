@@ -16,9 +16,10 @@ const TaskList = () => {
 					))}
 				</ul>
 			) : (
-				<p className=" flex items-center justify-center gap-2 text-xl">
-					No tienes tareas pendientes <Cup color="#ff7124" />
-				</p>
+				<div className=" flex flex-col items-center justify-center pt-8">
+					<Cup color="#ff7124" height="40" width="40" />
+					<p className="max-w-52 text-center text-lg">You have no pending tasks</p>
+				</div>
 			)}
 		</div>
 	)
