@@ -1,7 +1,14 @@
+import Dashboard from './components/Dashboard'
+import Header from './components/Header'
+import { TasksProvider } from './context/TasksContext'
+
 function App() {
 	return (
 		<>
-			<h1 className=" text-4xl font-medium md:text-5xl">Tasks</h1>
+			<Header />
+			<TasksProvider>
+				<Dashboard />
+			</TasksProvider>
 		</>
 	)
 }
