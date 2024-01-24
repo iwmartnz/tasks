@@ -1,4 +1,5 @@
 import Dashboard from './components/Dashboard'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import { TasksProvider } from './context/TasksContext'
 
@@ -9,6 +10,7 @@ function App() {
 			<TasksProvider>
 				<Dashboard />
 			</TasksProvider>
+			<Footer />
 		</>
 	)
 }
