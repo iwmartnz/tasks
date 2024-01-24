@@ -24,7 +24,7 @@ const Task = ({ task }) => {
 			) : (
 				<div
 					onDoubleClick={handleOpenForm}
-					className=" hover:bg-brand-black/20 group flex h-16 items-center justify-between rounded-xl p-2"
+					className=" hover:bg-brand-black/20 group flex min-h-16 items-center justify-between rounded-xl p-2"
 				>
 					{/* Mark as complete checkbox */}
 					<Checkbox
@@ -57,7 +57,7 @@ const Task = ({ task }) => {
 						}}
 						className=" rounded-md"
 						padding="p-1"
-						background=" bg-brand-light-gray hover:bg-red-400"
+						background=" bg-brand-light-gray hover:bg-brand-red"
 					>
 						<Close />
 					</Button>

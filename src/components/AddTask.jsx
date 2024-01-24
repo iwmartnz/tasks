@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Button from './Button'
-import { Plus } from './Icons'
 import { useTasksContext } from '../context/TasksContext'
 import TaskForm from './TaskForm'
 
@@ -21,7 +20,8 @@ const AddTask = () => {
 				onClick={handleOpenForm}
 				onDisabled={showForm}
 				onAutoFocus={showForm == false}
-				className=" rounded-md shadow-md"
+				className=" rounded-lg shadow-md"
+				background=" bg-brand-dark-gray hover:bg-brand-black/80"
 			>
 				Add Task
 			</Button>
