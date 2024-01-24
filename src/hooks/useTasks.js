@@ -10,7 +10,6 @@ const initialTasks = [
 	{
 		id: 1,
 		title: 'Hacer doble click para editar una tarea',
-		details: 'Descripcion de tarea de prueba',
 		importance: 'regular',
 		done: true
 	},
