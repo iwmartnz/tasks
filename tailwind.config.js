@@ -15,7 +15,8 @@ export default {
 				'brand-gray': '#343434',
 				'brand-light-gray': '#545454',
 				'brand-white': '#f5f5f5',
-				'brand-accent': '#64f5b7'
+				'brand-accent': '#64f5b7',
+				'brand-red': '#fd5c63'
 			}
 		}
 	},
